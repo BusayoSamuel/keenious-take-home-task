@@ -1,3 +1,31 @@
+### Decisions Made
+
+For this project, I utilized AI tools to assist with the initial code generation while making a number of key modifications and enhancements to meet my needs. Below are some of the notable decisions and customizations I made:
+
+**Styling and Design**: I modified the styling of article cards to match the Keenious website. This included adding hyperlinks to the articles and performing null checks for any missing data fields.
+
+**API Integration**: I crafted custom prompts to generate the appropriate URLs from the OpenAlex API and to retrieve article summaries from the OpenAI API.
+
+**Error Handling**: To improve user experience, I implemented error-catching mechanisms for both the OpenAlex and OpenAI APIs, customizing the error messages to provide clear and useful feedback to users.
+
+**Code Refactoring**: I defined the overall folder structure and refactored the code into reusable components to enhance readability and scalability of the application.
+
+**UI/UX Features Implemented**:
+
+**1.Dark Mode**: Implemented a dark mode toggle by creating a new theme with a different color palette, allowing users to switch between light and dark modes seamlessly.
+
+**2.Clear Chat**: The clear chat button is a standard button that clears the chat history.
+
+**3.Skeleton Loader**: The skeleton loader is a custom component that displays a loading state for the chat. The loader is displayed when the chat is loading and disappears when the chat is loaded.
+
+**4.Auto-scroll**: The chat feature includes an auto-scroll functionality that ensures smooth scrolling to the user's latest message as new messages are loaded. The chat also auto-scrolls to the bottom upon refreshing the window.
+
+**5.Error Handling**: Meaningful error messages are displayed when the chat API returns an error or if the user's input is invalid.
+
+**6.Responsive Design**: The chat is responsive and can be viewed on both desktop and mobile devices.
+
+**7.Chat History**: The chat history is stored in the browser’s local storage, allowing users to retain their chat history even after closing or refreshing the browser.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
